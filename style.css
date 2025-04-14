@@ -1,0 +1,18 @@
+
+body {
+    background-color: #000;
+    color: red;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+#logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
+.title {
+    font-size: 48px;
+    margin-top: 100px;
+}
