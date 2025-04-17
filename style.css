@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+#logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+}
+#counter {
+  margin-top: 150px;
+  font-size: 48px;
+  color: orange;
+  text-shadow: 0 0 10px red;
+}
+.buttons button {
+  margin: 10px;
+  padding: 10px 25px;
+}
+.payments img {
+  width: 40px;
+  margin: 10px;
+}
+#hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 30%;
+  height: 100%;
+  background: #111;
+  color: white;
+  transition: left 0.3s ease;
+}
+#menu ul {
+  list-style: none;
+  padding: 60px 20px;
+}
+#menu ul li {
+  margin: 20px 0;
+  cursor: pointer;
+}
+#menu.active {
+  left: 0;
+}
+#ortai {
+  margin-top: 40px;
+  color: white;
+  display: none;
+}
+#ortai img {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
